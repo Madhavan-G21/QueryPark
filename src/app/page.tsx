@@ -154,13 +154,6 @@ export default function LoginPage() {
                   <div className="inline-flex items-center gap-1.5 text-2xl font-black text-gray-900">
                     <span className="text-rose-600 text-3xl">QP</span>ark
                   </div>
-                  <div className="flex flex-wrap items-center justify-center gap-2 rounded-full border border-gray-200 bg-white/70 px-2.5 py-1.5 shadow-sm backdrop-blur-sm">
-                    <img src="/images/park_college_logo.png" alt="Park College Logo" className="h-7 w-auto object-contain" title="Park College of Engineering and Technology" />
-                    <img src="/images/moe_logo.png" alt="Ministry of Education" className="h-7 w-auto object-contain" title="Ministry of Education (Govt. of India)" />
-                    <img src="/images/aicte_logo.png" alt="AICTE" className="h-7 w-auto object-contain" title="AICTE" />
-                    <img src="/images/mic_logo.png" alt="MoE Innovation Cell" className="h-7 w-auto object-contain" title="MoE Innovation Cell" />
-                    <img src="/images/iic_logo.png" alt="Institution's Innovation Council" className="h-7 w-auto object-contain" title="Institution's Innovation Council" />
-                  </div>
                 </div>
                 <p className="text-xs text-gray-500 mt-3">
                   {mode === "login"
