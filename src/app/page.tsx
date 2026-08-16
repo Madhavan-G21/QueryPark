@@ -100,7 +100,7 @@ export default function LoginPage() {
           <div className="lg:col-span-6 space-y-6 text-center lg:text-left text-white">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 border border-white/15 text-white/90 text-xs font-semibold shadow-lg shadow-black/10 backdrop-blur-sm">
               <Shield className="w-3.5 h-3.5 text-amber-300" />
-              <span>Campus Feedback & Grievance Portal</span>
+              <span>Problem Sharing Portal</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl font-black tracking-tight leading-tight text-white">
@@ -111,15 +111,13 @@ export default function LoginPage() {
             </h1>
 
             <p className="text-base text-slate-200 leading-relaxed max-w-md mx-auto lg:mx-0">
-              Submit questions, report facility issues, advocate for safety, and track transparent
-              resolutions from campus administration.
+              Submit the problems you faced day to day in your life
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-left">
               <div className="flex items-start gap-2.5 p-3 rounded-xl bg-white/10 border border-white/10 shadow-lg backdrop-blur-sm">
                 <Shield className="w-4 h-4 text-pink-300 shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-xs font-bold text-white">Women&apos;s Safety</p>
                   <p className="text-[11px] text-slate-200">Fast-track high priority reports</p>
                 </div>
               </div>
@@ -134,7 +132,6 @@ export default function LoginPage() {
                 <MessageSquare className="w-4 h-4 text-emerald-300 shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs font-bold text-white">Direct Discussion</p>
-                  <p className="text-[11px] text-slate-200">Upvote & comment on inquiries</p>
                 </div>
               </div>
               <div className="flex items-start gap-2.5 p-3 rounded-xl bg-white/10 border border-white/10 shadow-lg backdrop-blur-sm">

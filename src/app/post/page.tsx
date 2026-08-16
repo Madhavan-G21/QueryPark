@@ -99,7 +99,7 @@ export default function PostPage() {
           <span>Back to Dashboard</span>
         </Link>
         <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">
-          Post a Question or Report
+          Post Your Problem
         </h1>
         <p className="text-sm text-gray-500 mt-1">
           Share your feedback, report a campus concern, or ask for administrative clarification.

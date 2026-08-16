@@ -76,7 +76,8 @@ export default function AdminLoginPage() {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-md mx-auto lg:mx-0">
-            Dedicated administrative portal for Deans, Wardens, Department Heads, and Security Officials to review student reports, manage grievance statuses, and resolve campus issues.
+            Every Problem Has a solution , Understanding the problem is the first step we do , to get that solution
+            
           </p>
 
           <div className="space-y-3 pt-2 text-left max-w-md mx-auto lg:mx-0">

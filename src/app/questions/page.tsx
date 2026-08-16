@@ -103,7 +103,7 @@ function QuestionsContent() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl sm:text-3xl font-black text-gray-900 tracking-tight">
-            Campus Question Feed
+            Campus Problem Feed
           </h1>
           <p className="text-xs sm:text-sm text-gray-500 mt-1">
             Browse, search, and vote on campus issues and administrative inquiries.
@@ -115,7 +115,7 @@ function QuestionsContent() {
           className="inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 active:scale-95 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-md shadow-indigo-600/20 transition-all self-start sm:self-auto"
         >
           <PlusCircle className="w-4 h-4" />
-          <span>Ask Question</span>
+          <span>Add Problem</span>
         </Link>
       </div>
 
@@ -252,10 +252,10 @@ function QuestionsContent() {
             🔎
           </div>
           <div className="space-y-1">
-            <h3 className="font-bold text-gray-800 text-base">No questions found</h3>
+            <h3 className="font-bold text-gray-800 text-base">No Problem found</h3>
             <p className="text-xs text-gray-500 max-w-sm mx-auto">
-              No questions matched your active filters or search terms. Try modifying your search or
-              post a new question.
+              No problems matched your active filters or search terms. Try modifying your search or
+              post a new problem.
             </p>
           </div>
           <div className="flex justify-center gap-3">
@@ -269,7 +269,7 @@ function QuestionsContent() {
               href="/post"
               className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-semibold hover:bg-indigo-700 transition"
             >
-              Post Question
+              Post Problem
             </Link>
           </div>
         </div>

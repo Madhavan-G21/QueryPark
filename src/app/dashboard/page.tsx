@@ -62,7 +62,7 @@ export default function DashboardPage() {
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 text-white/90 text-xs font-semibold backdrop-blur-xs">
               <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-              <span>Student Feedback Dashboard</span>
+              <span>QueryPark</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
               Welcome back, {user?.name || "Student"}! 👋
@@ -173,7 +173,7 @@ export default function DashboardPage() {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white tracking-tight">
-              Recent Campus Questions
+              Recent Campus problems
             </h2>
             <p className="text-xs text-gray-500">Latest issues and discussions posted by students</p>
           </div>
@@ -200,7 +200,7 @@ export default function DashboardPage() {
               className="inline-flex items-center gap-2 bg-indigo-600 text-white font-semibold px-4 py-2 rounded-xl text-xs"
             >
               <PlusCircle className="w-4 h-4" />
-              <span>Post the First Question</span>
+              <span>Post the First Problem</span>
             </Link>
           </div>
         )}
